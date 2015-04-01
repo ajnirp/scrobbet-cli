@@ -1,0 +1,37 @@
+{
+    "name": "scrobbet",
+    "version": "0.0.1",
+    "description": "command-line app to scrobble to Last.fm from Musicbrainz",
+    "keywords": [
+        "musicbrainz",
+        "last.fm",
+        "music",
+        "scrobble"
+    ],
+    "author": "Rohan Prinja <rohan.prinja@gmail.com>",
+    "contributors": [{
+        "name": "Aakash Jain",
+        "email": ""
+    }],
+    "main": "lib/main.js",
+    "bugs": {
+        "https://github.com/wenderen/scrobbet-cli.git/issues"
+    },
+    "bin": {
+        "scrobbet": "./bin/scrobbet"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wenderen/scrobbet-cli.git"
+    },
+    "preferGlobal": true,
+    "analyze": true,
+    "dependencies": {
+        "request": "2.54.1",
+        "commander": "2.7.1"
+    },
+    "engines": {
+        "node": ">=0.10.x"
+    }
+}
